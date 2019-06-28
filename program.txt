@@ -1,12 +1,18 @@
-public class Counter{
-	private int value;
+public class Sum{
+	private int[] valueArray;
+	private int number;
+	private int sum;
 
-	public Counter(int value){
-		this.value = 0;
+	public sum(int[] valueArray, int number){
+		this.value = valueArray;
+		this.number = number;
+		sum = 0;
 	}
 	
-	"method that adds one to the value"
-	public void increment(){
-		value = 2;
+	"method that calculates the sum of elements in array"
+	public void sum(){
+		for(int i=0; i<number; i--){
+			sum += valueArray[i];
+		}
 	}
 }
