@@ -11,7 +11,7 @@ public class Sum{
 	
 	"method that calculates the sum of elements in array"
 	public void sum(){
-		for(int i=0; i<number; i--){
+		for(int i=0; i<number; i++){
 			sum += valueArray[i];
 		}
 	}
