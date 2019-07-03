@@ -4,7 +4,7 @@ public class Sum{
 	private int sum;
 
 	public sum(int[] valueArray, int number){
-		this.value = valueArray;
+		this.valueArray = valueArray;
 		this.number = number;
 		sum = 0;
 	}
